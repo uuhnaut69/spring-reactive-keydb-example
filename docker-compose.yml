@@ -1,0 +1,8 @@
+version: "3.7"
+
+services:
+  keydb:
+    image: eqalpha/keydb
+    container_name: keydb
+    ports:
+      - 6379:6379
